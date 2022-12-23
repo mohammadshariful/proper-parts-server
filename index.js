@@ -175,7 +175,7 @@ async function run() {
 
     /* --------------Purchases Collection Api End----------------------- */
 
-    /* --------------Reviews Collection Api Start----------------------- */
+    /* --------------Reviews Collection Api Start point----------------------- */
     //get reviews api
     app.get("/reviews", async (req, res) => {
       const reviews = await reviewsCollection.find().toArray();
